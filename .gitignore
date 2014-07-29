@@ -1,3 +1,7 @@
-cproject
+.pro
+.pro.user
+_DEBUG
+*.~
 .project
-.~
+.cproject
+.settings
