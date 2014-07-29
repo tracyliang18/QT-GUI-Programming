@@ -35,7 +35,7 @@ static const uint qt_meta_data_FindDialog[] = {
 
  // slots: signature, parameters, type, tag, flags
       99,   11,   11,   11, 0x08,
-     118,  113,   11,   11, 0x08,
+     113,   11,   11,   11, 0x08,
 
        0        // eod
 };
@@ -44,7 +44,7 @@ static const char qt_meta_stringdata_FindDialog[] = {
     "FindDialog\0\0str,cs\0"
     "findNext(QString,Qt::CaseSensitivity)\0"
     "findPrevious(QString,Qt::CaseSensitivity)\0"
-    "findClicked()\0text\0enableFindButton(QString)\0"
+    "findClicked()\0enableFindButton()\0"
 };
 
 void FindDialog::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
@@ -56,7 +56,7 @@ void FindDialog::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, 
         case 0: _t->findNext((*reinterpret_cast< const QString(*)>(_a[1])),(*reinterpret_cast< Qt::CaseSensitivity(*)>(_a[2]))); break;
         case 1: _t->findPrevious((*reinterpret_cast< const QString(*)>(_a[1])),(*reinterpret_cast< Qt::CaseSensitivity(*)>(_a[2]))); break;
         case 2: _t->findClicked(); break;
-        case 3: _t->enableFindButton((*reinterpret_cast< const QString(*)>(_a[1]))); break;
+        case 3: _t->enableFindButton(); break;
         default: ;
         }
     }

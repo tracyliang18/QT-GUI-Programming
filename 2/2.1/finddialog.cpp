@@ -52,10 +52,10 @@ FindDialog::FindDialog(QWidget *parent) : QDialog(parent)
 }
 
 
-void FindDialog::findPrevious(const QString &str, Qt::CaseSensitivity cs)
-{
+//void FindDialog::findPrevious(const QString &str, Qt::CaseSensitivity cs)
+//{
 
-}
+//}
 
 void FindDialog::findClicked()
 {
@@ -72,6 +72,10 @@ void FindDialog::findClicked()
         }
 }
 
+void FindDialog::enableFindButton()
+{
+    this->findButton->setEnabled(true);
+}
 
 
 

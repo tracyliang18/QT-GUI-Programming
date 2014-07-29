@@ -28,7 +28,7 @@ public:
                 void findPrevious(const QString &str, Qt::CaseSensitivity cs);
         private slots:
                 void findClicked();
-                void enableFindButton(const QString &text);
+                void enableFindButton();
 
         private:
                 QLabel *label;
